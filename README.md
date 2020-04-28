@@ -8,8 +8,8 @@ https://docs.microsoft.com/pt-br/aspnet/core/tutorials/signalr?view=aspnetcore-3
 
 # To run our example:
 
-* Server project *: WebApplicationSockets
-* Target Framework *: NetCore 3.1
+Server project: WebApplicationSockets
+Target Framework: NetCore 3.1
 
 Client project is divided in two:
 UI - exe for WPF
