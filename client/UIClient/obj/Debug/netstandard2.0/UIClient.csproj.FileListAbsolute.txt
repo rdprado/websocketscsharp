@@ -7,3 +7,6 @@ C:\Projects\gustavo\client\UIClient\UIClient\bin\Debug\netstandard2.0\UIClient.p
 C:\Projects\gustavo\client\UIClient\UIClient\obj\Debug\netstandard2.0\UIClient.csproj.CoreCompileInputs.cache
 C:\Projects\gustavo\client\UIClient\UIClient\obj\Debug\netstandard2.0\UIClient.dll
 C:\Projects\gustavo\client\UIClient\UIClient\obj\Debug\netstandard2.0\UIClient.pdb
+C:\Projects\gustavo2\websocketscsharp\client\UIClient\obj\Debug\netstandard2.0\UIClient.csproj.CoreCompileInputs.cache
+C:\Projects\gustavo2\websocketscsharp\client\UIClient\obj\Debug\netstandard2.0\UIClient.AssemblyInfoInputs.cache
+C:\Projects\gustavo2\websocketscsharp\client\UIClient\obj\Debug\netstandard2.0\UIClient.AssemblyInfo.cs
