@@ -1,0 +1,44 @@
+﻿<Window x:Class="UIWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UIWPF"
+        mc:Ignorable="d"
+        Loaded="WindowLoaded"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20" />
+            <RowDefinition Height="40" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="20" />
+        </Grid.RowDefinitions>
+        <Label Grid.Row="1">Example 1 - send, receive</Label>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <WrapPanel HorizontalAlignment="Center" Grid.Row="0" Margin="0,0,00,10">
+                <Button Width="100" Height="30" Name="btnAddData">Send</Button>
+                <TextBox Width="280" Height="30" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Name="textBoxInputData">Message...</TextBox>
+            </WrapPanel>
+            <Label Grid.Row="1">Console</Label>
+            <TextBlock Grid.Row="2" Height="260" Name="textBlockConsole"></TextBlock>
+        </Grid>
+        <StackPanel Grid.Column="1">
+            <Label>Example 2 - auto update list with server data from time to time</Label>
+            <WrapPanel HorizontalAlignment="Center">
+                <Button Width="100" Height="30">Start</Button>
+            </WrapPanel>
+            <ListBox Width="200" Height="200">Data</ListBox>
+        </StackPanel>
+    </Grid>
+</Window>
