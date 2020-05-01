@@ -16,6 +16,8 @@
             <RowDefinition Height="20" />
             <RowDefinition Height="40" />
             <RowDefinition Height="*" />
+            <RowDefinition Height="40" />
+            <RowDefinition Height="*" />
             <RowDefinition Height="20" />
         </Grid.RowDefinitions>
         <Label Grid.Row="1">Example 1 - send, receive</Label>
@@ -33,12 +35,30 @@
             <Label Grid.Row="1">Console</Label>
             <TextBlock Grid.Row="2" Height="260" Name="textBlockConsole"></TextBlock>
         </Grid>
+        
+
+        
+        <Label Grid.Row="1" Grid.Column="1">Example 2 - auto update list with server data from time to time</Label>
         <StackPanel Grid.Column="1">
-            <Label>Example 2 - auto update list with server data from time to time</Label>
             <WrapPanel HorizontalAlignment="Center">
                 <Button Width="100" Height="30">Start</Button>
             </WrapPanel>
             <ListBox Width="200" Height="200">Data</ListBox>
         </StackPanel>
+
+        <Label Grid.Row="3">Example 3 - speed test</Label>
+        <Grid Grid.Row="4">
+            <Grid.ColumnDefinitions>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <WrapPanel HorizontalAlignment="Center" Grid.Row="0" Margin="0,0,00,10">
+                <Button Width="100" Height="30" Name="btnSpeedTest">Start</Button>
+                <TextBox Width="280" Height="30" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Name="textBoxSpeedResultData">1000</TextBox>
+            </WrapPanel>
+            <TextBlock Grid.Row="1" Height="160" Name="textBlockSpeedTestConsole"></TextBlock>
+        </Grid>
     </Grid>
 </Window>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "M6AhWrJLEFaBTreusTL1wESO/GLc6Ii+h8mJnpCZ8hmGzJCcpLxQYE/P7w/bV2wefx1snCXBZNuw8HsEg3kKDw==",
+  "dgSpecHash": "k4PY+PUZrO9FTwRu8xd6mBWJMkiUs5huybApzczTWeUBcx11JHFXYcrTOfu0a4A+M2eA++sUE1BgAmkl1KMEcA==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\gustavo\\client\\UIClient\\UIClient\\UIClient.csproj",
+  "projectFilePath": "C:\\Projects\\gustavo2\\websocketscsharp\\client\\UIClient\\UIClient\\UIClient.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\renat\\.nuget\\packages\\messagepack\\1.7.3.7\\messagepack.1.7.3.7.nupkg.sha512",
     "C:\\Users\\renat\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\3.1.3\\microsoft.aspnetcore.connections.abstractions.3.1.3.nupkg.sha512",

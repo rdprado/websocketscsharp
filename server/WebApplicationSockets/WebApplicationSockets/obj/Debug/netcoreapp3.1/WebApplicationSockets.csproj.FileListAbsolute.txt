@@ -104,7 +104,6 @@ C:\Projects\gustavo2\websocketscsharp\server\WebApplicationSockets\WebApplicatio
 C:\Projects\gustavo2\websocketscsharp\server\WebApplicationSockets\WebApplicationSockets\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
 C:\Projects\gustavo2\websocketscsharp\server\WebApplicationSockets\WebApplicationSockets\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
 C:\Projects\gustavo2\websocketscsharp\server\WebApplicationSockets\WebApplicationSockets\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
-C:\Projects\gustavo2\websocketscsharp\server\WebApplicationSockets\WebApplicationSockets\obj\Debug\netcoreapp3.1\WebApplicationSockets.csprojAssemblyReference.cache
 C:\Projects\gustavo2\websocketscsharp\server\WebApplicationSockets\WebApplicationSockets\obj\Debug\netcoreapp3.1\WebApplicationSockets.csproj.CoreCompileInputs.cache
 C:\Projects\gustavo2\websocketscsharp\server\WebApplicationSockets\WebApplicationSockets\obj\Debug\netcoreapp3.1\WebApplicationSockets.MvcApplicationPartsAssemblyInfo.cache
 C:\Projects\gustavo2\websocketscsharp\server\WebApplicationSockets\WebApplicationSockets\obj\Debug\netcoreapp3.1\WebApplicationSockets.RazorAssemblyInfo.cache
@@ -130,3 +129,4 @@ C:\Projects\gustavo2\websocketscsharp\server\WebApplicationSockets\WebApplicatio
 C:\Projects\gustavo2\websocketscsharp\server\WebApplicationSockets\WebApplicationSockets\obj\Debug\netcoreapp3.1\WebApplicationSockets.dll
 C:\Projects\gustavo2\websocketscsharp\server\WebApplicationSockets\WebApplicationSockets\obj\Debug\netcoreapp3.1\WebApplicationSockets.pdb
 C:\Projects\gustavo2\websocketscsharp\server\WebApplicationSockets\WebApplicationSockets\obj\Debug\netcoreapp3.1\WebApplicationSockets.genruntimeconfig.cache
+C:\Projects\gustavo2\websocketscsharp\server\WebApplicationSockets\WebApplicationSockets\obj\Debug\netcoreapp3.1\WebApplicationSockets.csprojAssemblyReference.cache

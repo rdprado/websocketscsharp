@@ -49,6 +49,7 @@ namespace WebSocketsExample
                 endpoints.MapRazorPages();
                 endpoints.MapHub<ChatHub>("/chatHub");
                 endpoints.MapHub<ExampleSendReceiveHub>("/examplesendreceivehub");
+                endpoints.MapHub<MessageSpeedTestHub>("/messagespeedtesthub");
             });
         }
     }

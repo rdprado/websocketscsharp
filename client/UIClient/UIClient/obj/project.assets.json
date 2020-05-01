@@ -2289,11 +2289,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\gustavo\\client\\UIClient\\UIClient\\UIClient.csproj",
+      "projectUniqueName": "C:\\Projects\\gustavo2\\websocketscsharp\\client\\UIClient\\UIClient\\UIClient.csproj",
       "projectName": "UIClient",
-      "projectPath": "C:\\Projects\\gustavo\\client\\UIClient\\UIClient\\UIClient.csproj",
+      "projectPath": "C:\\Projects\\gustavo2\\websocketscsharp\\client\\UIClient\\UIClient\\UIClient.csproj",
       "packagesPath": "C:\\Users\\renat\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\gustavo\\client\\UIClient\\UIClient\\obj\\",
+      "outputPath": "C:\\Projects\\gustavo2\\websocketscsharp\\client\\UIClient\\UIClient\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\renat\\AppData\\Roaming\\NuGet\\NuGet.Config",

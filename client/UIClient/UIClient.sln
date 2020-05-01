@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIClient", "UIClient\UIClient.csproj", "{992BAF0C-A9A4-4DF3-8681-8C896993800B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UIClient", "UIClient\UIClient.csproj", "{992BAF0C-A9A4-4DF3-8681-8C896993800B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "UIWPF\UI.csproj", "{10C0A7DB-5DC0-48DC-84E1-983E7ACC5DA9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp", "WpfApp\WpfApp.csproj", "{E6573BA8-4E65-432D-9CCE-FAED3F0D3F0B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{992BAF0C-A9A4-4DF3-8681-8C896993800B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{992BAF0C-A9A4-4DF3-8681-8C896993800B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{992BAF0C-A9A4-4DF3-8681-8C896993800B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{10C0A7DB-5DC0-48DC-84E1-983E7ACC5DA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{10C0A7DB-5DC0-48DC-84E1-983E7ACC5DA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{10C0A7DB-5DC0-48DC-84E1-983E7ACC5DA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{10C0A7DB-5DC0-48DC-84E1-983E7ACC5DA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6573BA8-4E65-432D-9CCE-FAED3F0D3F0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6573BA8-4E65-432D-9CCE-FAED3F0D3F0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6573BA8-4E65-432D-9CCE-FAED3F0D3F0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6573BA8-4E65-432D-9CCE-FAED3F0D3F0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
