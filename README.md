@@ -1,5 +1,5 @@
 # websocketscsharp
-Small project built with vs 2019 Community, to test Asp.Net Core SignalR. 
+Small project built with VisualStudio 2019 Community, to test Asp.Net Core SignalR. 
 First thing was testing the MSDN tutorial:
 https://docs.microsoft.com/pt-br/aspnet/core/tutorials/signalr?view=aspne-3.1&tabs=visual-studio, which builds a simple chat App with SignalR and a js client. To run it, simply play the server solution and try it in the browser.
 
