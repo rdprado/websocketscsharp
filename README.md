@@ -1,12 +1,11 @@
 # websocketscsharp
+Small project built with vs 2019 Community, to test Asp.Net Core SignalR. 
+First thing was testing the MSDN tutorial:
+https://docs.microsoft.com/pt-br/aspnet/core/tutorials/signalr?view=aspne-3.1&tabs=visual-studio, which builds a simple chat App with SignalR and a js client. To run it, simply play the server solution and try it in the browser.
 
-Project tested with VS2019 Community
+Secondly I create a .net core client, divided in two csprojs, one with a simple WPF interface and the other, a DLL which connects to the server.
 
-There are some examples in this project. There are two folders, server and client.
-But when running the server, there is already a chat example with a js client in it. Example from:
-https://docs.microsoft.com/pt-br/aspnet/core/tutorials/signalr?view=aspnetcore-3.1&tabs=visual-studio
-
-# To run our example:
+# Versions
 
 Server project: WebApplicationSockets
 Target Framework: NetCore 3.1
@@ -17,7 +16,9 @@ UI - exe for WPF
 UIClient - dll to make client-server communication easier
   Target Framework: .NET Standard 2.0
 
+# To run .net client
 1- Run Server
 	Don't run as IIS, use WebApplicationSockets
 
 2- Run Client
+	Currently there are two examples only, a send receive message. And a test of the time it takes for the server to send N messages, and the client to update the UI each time.
