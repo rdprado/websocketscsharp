@@ -3,7 +3,7 @@ Small project built with VisualStudio 2019 Community, to test Asp.Net Core Signa
 First thing was testing the MSDN tutorial:
 https://docs.microsoft.com/pt-br/aspnet/core/tutorials/signalr?view=aspne-3.1&tabs=visual-studio, which builds a simple chat App with SignalR and a js client. To run it, simply play the server solution and try it in the browser.
 
-Secondly I create a .net core client, divided in two csprojs, one with a simple WPF interface and the other, a DLL which connects to the server.
+Secondly .Net Core client was created as a solution divided with two csprojs, one with a simple WPF interface and the other as a DLL which provides the communication layer to the server.
 
 # Versions
 
