@@ -74,7 +74,14 @@ namespace UIClient
 
         public void StartTest(int messageCount)
         {
-            connection.InvokeAsync("StartTest", messageCount);
+            try
+            {
+                connection.InvokeAsync("StartTest", messageCount);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
         }
-    }
+}
 }
